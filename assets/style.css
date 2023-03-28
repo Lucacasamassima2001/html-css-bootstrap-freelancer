@@ -1,4 +1,138 @@
+
+
+header{
+    background-color: rgba(44,62,80,255);
+}
+
 .content{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+
+.start-bootstrap{
+    background-color: rgba(26,188,156,255);
+}
+
+.img-container{
     height: 300px;
-    background-color: red;
+    background-color: white;
+}
+
+.text{
+    height: 50px;
+}
+
+.text-paragraph{
+    height: 300px;
+    border: 2px solid black;
+}
+
+.form-line{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    border-bottom: 2px solid black;
+}
+
+.form-line-spaced{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    border-bottom: 2px solid black;
+    margin-top: 150px;
+}
+
+.send{
+    background-color: rgba(26,188,156,255);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}
+
+.content-footer{
+    height: 200px;
+}
+
+.portfolio{
+    margin-top: 100px;
+}
+
+
+.portfolio-item-1{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: rgba(186,75,99,255);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.portfolio-item-2{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: rgba(30,164,182,255);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.portfolio-item-3{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: rgba(20,15,15,255);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.portfolio-item-4{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: rgba(28,131,193,255);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.portfolio-item-5{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: rgba(14,56,181,255);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.portfolio-item-6{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: rgba(204,178,163,255);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.about{
+    background-color: rgba(26,188,156,255);
+}
+
+.info{
+    background-color: rgba(58,84,109,255);
+}
+
+.content-info{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+footer{
+    background-color: rgba(44,62,80,255);
+}
+
+.text-footer{
+    height: 30px;
 }
