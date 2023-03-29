@@ -1,5 +1,8 @@
 
 
+/* <!-- START HEADER WITH NAV --> */
+
+
 header{
     background-color: rgba(44,62,80,255);
 }
@@ -20,10 +23,6 @@ header{
 .nav-item .dropdown:hover{
     color: white;
 }
-
-
-
-
 
 .nav-link{
     color: white;
@@ -46,8 +45,18 @@ header{
     color: white;
 }
 
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
+.navbar-toggler{
+    border: none;
+}
 
 
+/* <!-- END HEADER WITH NAV --> */
+
+
+/* START BOOTSTRAP SECTION */
 
 
 .start-bootstrap{
@@ -62,6 +71,10 @@ header{
 .avatar{
     max-width: 300px;
 }
+
+/* END BOOTSTRAP SECTION */
+
+/* STAR WITH LINES */
 
 .star{
     position: relative;
@@ -118,15 +131,41 @@ header{
     border-bottom: 2px solid rgba(44,62,80,255);
 }
 
+/* END STAR WITH LINES */
 
-.navbar-toggler-icon{
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+/* START PORTFOLIO SECTION */
+
+#portfolio{
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
-.navbar-toggler{
-    border: none;
+
+.portfolio-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;    
+    margin: auto;
 }
 
+.portfolio-item:hover{
+    cursor: pointer;
+}
 
+.portfolio-item img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* END PORTFOLIO SECTION */
+
+/* START ABOUT SECTION */
+
+#about{
+    background-color: rgba(26,188,156,255);
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
 
 .text{
     height: 50px;
@@ -164,75 +203,9 @@ i{
     color: white;
 }
 
-.content-footer{
-    height: 200px;
-}
+/* END ABOUT SECTION */
 
-#portfolio{
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-.portfolio-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;    
-    margin: auto;
-}
-
-.portfolio-item img{
-    max-width: 100%;
-    border-radius: 20px;
-}
-
-#about{
-    background-color: rgba(26,188,156,255);
-}
-
-#info{
-    background-color: rgba(58,84,109,255);
-}
-
-.content-info{
-    width: 100%;
-    height: 150px;
-    color: white
-}
-
-h4{
-    font-size: 1.2em;
-}
-
-.icons{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: .5em;
-}
-
-.icon-container{
-    width: 45px;
-    aspect-ratio: 1/1;
-    padding: .5em;
-    border: 2px solid white;
-    border-radius: 50%;
-}
-footer{
-    background-color: rgba(44,62,80,255);
-}
-
-.text-footer{
-    height: 30px;
-    font-size: .8em;
-    color: white;
-}
-
-.about{
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
+/* START CONTACT WITH FORM SECTION */
 
 .contact{
     padding-top: 2em;
@@ -279,4 +252,51 @@ input{
     border-radius: 10px;
     padding: .5em;
     padding-inline: .7em;
+}
+
+/* END CONTACT WITH FORM SECTION */
+
+
+/* START INFO SECTION */
+
+#info{
+    background-color: rgba(58,84,109,255);
+}
+
+.content-info{
+    width: 100%;
+    height: 150px;
+    color: white
+}
+
+h4{
+    font-size: 1.2em;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+.icon-container{
+    width: 45px;
+    aspect-ratio: 1/1;
+    padding: .5em;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+/* END INFO SECTION */
+
+footer{
+    background-color: rgba(44,62,80,255);
+}
+
+.text-footer{
+    height: 30px;
+    font-size: .8em;
+    color: white;
 }
