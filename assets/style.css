@@ -149,9 +149,7 @@ header{
     position: relative;
 }
 
-.portfolio-item:hover{
-    cursor: pointer;
-}
+
 
 .portfolio-item img{
     max-width: 100%;
